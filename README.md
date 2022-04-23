@@ -9,4 +9,4 @@ routes : \
 "/attack" - user attack \
 "/attack2" - enemy attack \
 "/bag" - extra possibilites \
-"result" - results
+"/result" - results
