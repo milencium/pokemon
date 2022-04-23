@@ -5,8 +5,8 @@ routes : \
 "/" - home \
 "/choice" - game choice \
 "/new_game" - creates new game \
-"/game"  - actual game
-"/attack" - user attack
-"/attack2" - enemy attack
-"/bag" - extra possibilites
+"/game"  - actual game \
+"/attack" - user attack \
+"/attack2" - enemy attack \
+"/bag" - extra possibilites \
 "result" - results
