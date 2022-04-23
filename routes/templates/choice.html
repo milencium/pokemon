@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block head %}
+<title>Pokemon Game</title>
+{% endblock %}
+{% block body %}
+<main>
+   <div class="menu">
+      <h1>Izaberi pokemona:</h1>
+      <form class="form-inline" method="POST" action="{{ url_for('new_game') }}">
+         <select name="comp_select" class="selectpicker form-control">
+            {% for Pokemon in availablePokemon %}
+            <div>
+               <p>
+                  <option value="{{ Pokemon.name }}">{{ Pokemon.name }}</option>
+               </p>
+            </div>
+            {% endfor %}
+         </select>
+         <button type="submit" class="btn btn-default">BIRAM OVOGA POKEMONA</button>
+      </form>
+   </div>
+</main>
+{% endblock %}
